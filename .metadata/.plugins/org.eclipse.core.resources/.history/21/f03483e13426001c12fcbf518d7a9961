@@ -1,0 +1,6 @@
+package com.dp.command;
+
+@FunctionalInterface
+interface TextFileOperation {
+	String execute();
+}

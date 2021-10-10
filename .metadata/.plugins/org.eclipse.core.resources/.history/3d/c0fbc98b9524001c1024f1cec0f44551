@@ -1,0 +1,5 @@
+package cpm.dp.visitor;
+
+public class VisitorAllFiles {
+
+}

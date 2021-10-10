@@ -1,0 +1,13 @@
+package com.dp.test;
+
+import com.dp.tree.ChristmasTree;
+import com.dp.tree.ChristmasTreeImpl;
+
+public class TestDecorator {
+
+	public static void main(String[] args) {
+		ChristmasTree christmasTree = new Garland(new ChristmasTreeImpl());
+
+	}
+
+}

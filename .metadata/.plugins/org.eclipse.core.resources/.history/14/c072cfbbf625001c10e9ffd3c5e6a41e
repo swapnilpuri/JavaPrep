@@ -1,0 +1,54 @@
+package com.dp.flyweight;
+
+import java.awt.Color;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.logging.Logger;
+
+
+interface Vehicle {
+	void start();
+	void stop();
+	Color getColor();
+	
+}
+
+class Engine {
+	void start() {
+		System.out.println("Start Engine");
+	}
+	
+	void stop() {
+		System.out.println("Stop Engine");
+	}
+}
+
+class Car implements Vehicle {
+	
+	private Engine engine;
+	private Color color;
+	
+	Car(Engine engine, Color color){
+		this.engine = engine;
+		this.color = color;
+	}
+	
+	public void start() {
+		engine.start();
+	}
+	
+	public void stop() {
+		engine.stop();
+	}
+	
+	public Color getColor() {
+		return this.color;
+	}
+}
+
+
+class VehicleFactory {
+	
+	private static Map<Color, Vehicle> vehicle = new HashMap<Color, Vehicle>();
+
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Hashtable"/>
+    <fullyQualifiedTypeName name="com.ik.recursion.SumOfDigit"/>
+    <fullyQualifiedTypeName name="com.ik.recursion.SumOfArray"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.dp.tree.ChristmasTree"/>
+    <fullyQualifiedTypeName name="com.dp.tree.ChristmasTreeImpl"/>
+    <fullyQualifiedTypeName name="com.dp.tree.Garland"/>
+    <fullyQualifiedTypeName name="com.dp.tree.BubbleLights"/>
+    <fullyQualifiedTypeName name="com.dp.visitor.FileVisitor"/>
+    <fullyQualifiedTypeName name="com.dp.visitor.WordFile"/>
+    <fullyQualifiedTypeName name="com.dp.visitor.PictureFile"/>
+    <fullyQualifiedTypeName name="com.dp.visitor.File"/>
+    <fullyQualifiedTypeName name="com.dp.visitor.FilePrintVisitor"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="com.sun.org.slf4j.internal.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="com.sun.org.slf4j.internal.LoggerFactory"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.dp.flyweight.VehicleFactory"/>
+    <fullyQualifiedTypeName name="com.dp.proxy.ExpensiveObjectImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.dp.proxy.ExpensiveObject"/>
+    <fullyQualifiedTypeName name="com.dp.proxy.ExpensiveObjectProxy"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.dp.command.TextFileOperation"/>
+</qualifiedTypeNameHistroy>

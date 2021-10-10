@@ -1,0 +1,26 @@
+package com.dp.roles;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.dp.EmployeeAbstract;
+
+public class Manager extends EmployeeAbstract {
+	List<EmployeeAbstract> subordinates;
+	
+	public Manager(String empId, String empName, String empRole) {
+		super(empId, empName, empRole);
+		subordinates = new ArrayList<EmployeeAbstract>();
+	}
+	
+	public void addEmployee(EmployeeAbstract subordinate) {
+		subordinates.add(subordinate);
+	}
+	
+	@Override
+	public void printDetails() {
+		super.printDetails();
+		subordinates.forEach(EmployeeAbstract::printDetails);
+	}	
+
+}

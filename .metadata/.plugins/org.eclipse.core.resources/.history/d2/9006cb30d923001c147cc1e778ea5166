@@ -1,0 +1,10 @@
+package com.dp.tree;
+
+public class BubbleLights extends TreeDecorator {
+	
+	public BubbleLights(ChristmasTree tree) {
+		super(tree);
+	}
+	
+
+}

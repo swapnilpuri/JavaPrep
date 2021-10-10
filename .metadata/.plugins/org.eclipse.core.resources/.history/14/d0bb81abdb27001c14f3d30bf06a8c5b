@@ -1,0 +1,8 @@
+package com.dp.observerpattern;
+
+
+public class NewsAgency {
+	private String news;
+	//private List<Channel>
+
+}

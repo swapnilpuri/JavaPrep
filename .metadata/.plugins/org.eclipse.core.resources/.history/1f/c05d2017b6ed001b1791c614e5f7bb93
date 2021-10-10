@@ -1,0 +1,12 @@
+package com.iks.algo;
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+		int a[] = {34,23,64,11,84,78};
+		
+		
+
+	}
+
+}

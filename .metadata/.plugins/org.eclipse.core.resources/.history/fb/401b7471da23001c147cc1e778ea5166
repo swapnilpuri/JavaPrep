@@ -1,0 +1,18 @@
+package com.dp.tree;
+
+public class Garland extends TreeDecorator {
+	
+	public Garland(ChristmasTree tree) {
+		super(tree) ;
+	}
+	
+	@Override
+	public String decorate() {
+		return super.decorate() + garland();
+	}
+	
+	private String garland() {
+		return " with Garland";
+	}	
+
+}

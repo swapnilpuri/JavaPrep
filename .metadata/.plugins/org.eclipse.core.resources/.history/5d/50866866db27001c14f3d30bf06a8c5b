@@ -1,0 +1,11 @@
+package com.dp.observerpattern;
+
+public class NewsChannel implements Channel {
+
+	@Override
+	public void update(Object feed) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

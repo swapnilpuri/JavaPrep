@@ -1,0 +1,5 @@
+package com.dp.tree;
+
+public class BubbleLights extends TreeDecorator {
+
+}

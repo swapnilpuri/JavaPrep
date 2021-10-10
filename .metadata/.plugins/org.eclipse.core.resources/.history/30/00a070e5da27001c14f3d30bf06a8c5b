@@ -1,0 +1,5 @@
+package com.dp.observerpattern;
+
+public interface Channel {
+
+}

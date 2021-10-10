@@ -1,0 +1,15 @@
+package com.dp.flyweight;
+
+import java.awt.Color;
+
+interface Vehicle {
+	void start();
+	void stop();
+	Color getColor();
+	
+}
+
+
+public class FlyWeight {
+
+}

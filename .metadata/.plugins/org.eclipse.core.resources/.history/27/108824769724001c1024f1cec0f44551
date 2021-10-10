@@ -1,0 +1,33 @@
+package com.dp.visitor;
+
+abstract class FileVisitor {
+	abstract void visitWord(WordFile file);
+	abstract void visitPicture(PictureFile file);
+}
+
+abstract class FilePrintVisitor extends FileVisitor{
+	abstract void visitWord(WordFile file);
+	abstract void visitPicture(PictureFile file);
+}
+
+abstract class File {
+	abstract void visit(FileVisitor fileVisitor); 
+}
+
+class WordFile extends File {
+
+	@Override
+	void visit(FileVisitor fileVisitor) {
+		fileVisitor.visitWord();
+		
+	}
+	
+}
+
+class PictureFile extends File {
+	@Override
+	void visit(FileVisitor fileVisitor) {
+		fileVisitor.visitPicture();
+		
+	}
+}

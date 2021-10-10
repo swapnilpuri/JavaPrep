@@ -1,0 +1,11 @@
+package com.dp.observerpattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NewsAgency {
+	private String news;
+	private List<Channel> channels = new ArrayList<>();
+	
+
+}
